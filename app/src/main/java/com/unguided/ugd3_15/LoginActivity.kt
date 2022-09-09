@@ -57,9 +57,13 @@ class LoginActivity : AppCompatActivity() {
 
                 return@OnClickListener
             }
-            val moveHome = Intent(this@LoginActivity, LoginActivity::class.java)
-            startActivity(moveHome)
+
+            val moveLogin = Intent(this@LoginActivity, MainPageActivity::class.java)
+            startActivity(moveLogin)
+
         })
+
+
     }
 
     fun getBundle(){

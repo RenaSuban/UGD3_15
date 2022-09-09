@@ -69,5 +69,7 @@ class RegisterActivity : AppCompatActivity() {
             intent.putExtras(mBundle)
             startActivity(intent)
         }
+        val moveRegister = Intent(this@RegisterActivity, LoginActivity::class.java)
+        startActivity(moveRegister)
     }
 }
