@@ -38,8 +38,8 @@ class LoginActivity : AppCompatActivity() {
             val username: String = inputUsername.getEditText()?.getText().toString()
             val password: String = inputPassword.getEditText()?.getText().toString()
 
-            if (username == "admin" && password == "kelompok9") checkLogin = true
-            if (username != "admin" && password != "kelompok9") {
+            if (username == "admin" && password == "kelompok15") checkLogin = true
+            if (username != "admin" && password != "kelompok15") {
                 if(username.isEmpty()){
                     inputUsername.setError("Username must be filled with text")
                     checkLogin = false
